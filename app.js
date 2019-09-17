@@ -49,7 +49,7 @@ if (!isProduction) {
 
 mongoose
   .connect(
-    "mongodb+srv://UmarKhan:2bnHHNLDIW37zufm@recipecluster-r6cjr.mongodb.net/test?retryWrites=true",
+    "mongodb+srv://FernandoLopez:2bnHHNLDIW37zufm@recipecluster-r6cjr.mongodb.net/test?retryWrites=true",
     { useNewUrlParser: true }
   )
   .then(result => {
